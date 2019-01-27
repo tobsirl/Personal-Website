@@ -1,0 +1,24 @@
+{
+  "name": "Personal-Website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobsirl/Personal-Website.git"
+  },
+  "keywords": [],
+  "author": "Paul Tobin <tobster111@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tobsirl/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/tobsirl/Personal-Website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
