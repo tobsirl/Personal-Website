@@ -87,8 +87,21 @@ body {
   background: linear-gradient(180deg, #000, #313131);
 }
 
-.section-education {
+.section__education {
   background-color: rgb(238, 238, 238);
   padding: 25rem 0;
   margin-top: -20vh;
+  
+}
+
+.modules__section-left {
+  
+}
+
+.modules__section-right {
+
+}
+
+.module__list {
+  list-style: none;
 }
