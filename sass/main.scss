@@ -9,10 +9,6 @@
 
 @import 'pages/home';
 
-
-
-
-
 .header {
   height: 60vh;
   background-position: top;
@@ -71,22 +67,6 @@
   font-weight: 400;
 }
 
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-}
-
-.btn-primary {
-  background-color: #0a0a0a;
-  color: #e6e6e6;
-  border: 2px solid white;
-  border-radius: 5px;
-  background: linear-gradient(180deg, #000, #313131);
-}
-
 .section__education {
   background-color: rgb(238, 238, 238);
   padding: 5rem 0;
@@ -94,11 +74,9 @@
 }
 
 .modules__section-left {
-
 }
 
 .modules__section-right {
-  
 }
 
 .module__list {
@@ -109,7 +87,6 @@
   padding: 5rem 0;
   margin-top: 10vh;
 }
-
 
 .programming-languages {
   list-style: none;
