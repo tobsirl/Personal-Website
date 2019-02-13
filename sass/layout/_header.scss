@@ -2,4 +2,19 @@
   height: 60vh;
   background-position: top;
   transition: all 1s ease;
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    // background-color: #0a0a0a;
+    // padding: 20px;
+    // border-style: solid;
+    // border-color: #6d5d4b;
+    border-width: 5px;
+    border-radius: 25px;
+    padding-bottom: 8rem;
+    text-align: center;
+  }
 }
