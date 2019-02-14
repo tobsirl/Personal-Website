@@ -166,3 +166,5 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
+  .footer__link:hover, .footer__link:active {
+    color: yellow; }

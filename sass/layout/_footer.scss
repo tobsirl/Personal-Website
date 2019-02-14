@@ -29,5 +29,11 @@
       text-transform: uppercase;
       display: inline-block;
     }
+
+    &:hover,
+    &:active {
+      color: yellow;
+      // box-shadow: 0 1rem 2rem rgba($color-warmyellow, 0.4);
+    }
   }
 }
