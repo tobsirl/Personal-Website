@@ -147,3 +147,22 @@ body {
     border-radius: 25px;
     padding-bottom: 8rem;
     text-align: center; }
+
+.footer {
+  background-color: #212121;
+  color: #fff; }
+  .footer__navigation {
+    border-top: 2px solid #777;
+    padding-top: 2rem;
+    display: inline-block; }
+  .footer__list {
+    list-style: none; }
+  .footer__item {
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 1.5rem; }
+  .footer__link:link, .footer__link:visited {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
