@@ -1,0 +1,76 @@
+.footer__social {
+  .effect {
+    display: flex;
+
+    a {
+      text-decoration: none !important;
+      color: $basic-light-color;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: $border-radius;
+      margin-right: 20px;
+      font-size: $font-size;
+      overflow: hidden;
+      position: relative;
+
+      i {
+        position: relative;
+        z-index: 3;
+      }
+
+      &.fb {
+        background-color: $fb-color;
+      }
+
+      &.tw {
+        background-color: $tw-color;
+      }
+
+      &.g-plus {
+        background-color: $g-plus;
+      }
+
+      &.dribbble {
+        background-color: $dribbble;
+      }
+
+      &.pinterest {
+        background-color: $pinterest;
+      }
+
+      &.insta {
+        background-color: $insta;
+      }
+
+      &.in {
+        background-color: $in;
+      }
+
+      &.vimeo {
+        background-color: $vimeo;
+      }
+    }
+  }
+}
+/* laertes effect */
+.effect.laertes {
+  a {
+    transition: all 0.2s linear 0s;
+
+    i {
+      transition: all 0.2s linear 0s;
+    }
+
+    &:hover {
+      border-radius: 50%/20%;
+
+      i {
+        transform: scale(1.1);
+        text-shadow: 0 0 12px rgba($basic-dark-color, 0.6);
+      }
+    }
+  }
+}
