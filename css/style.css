@@ -60,6 +60,11 @@ body {
   padding: 5rem 0;
   margin-top: 10vh; }
 
+.section__associated-skills {
+  background-color: #eeeeee;
+  padding: 5rem 0;
+  margin-top: 10vh; }
+
 .programming-languages {
   list-style: none; }
 
@@ -74,6 +79,17 @@ body {
 .img-python {
   height: 100px;
   width: 100px; }
+
+.section-dissertation {
+  padding: 15rem 0; }
+  .section-dissertation__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+
+.dissertation {
+  background-image: url("../../img/diss.png");
+  background-size: 100%;
+  height: 50rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
