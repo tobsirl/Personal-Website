@@ -1,13 +1,18 @@
 .header {
   color: $basic-dark-color;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
   &__navigation {
     // border-top: 2px solid #777;
-    padding-top: 2rem;
-    display: inline-block;
+    padding-top: 1rem;
   }
 
   &__list {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 }

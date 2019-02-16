@@ -186,9 +186,14 @@ body {
     color: yellow; }
 
 .header {
-  color: #212121; }
+  color: #212121;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
   .header__navigation {
-    padding-top: 2rem;
-    display: inline-block; }
+    padding-top: 1rem; }
   .header__list {
-    list-style: none; }
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
