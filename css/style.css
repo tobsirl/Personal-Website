@@ -63,6 +63,9 @@ body {
 .section__employment {
   padding: 5rem 0;
   margin-top: 10vh; }
+  .section__employment .container {
+    display: grid;
+    grid-template-columns: 200px 1fr; }
 
 .section__associated-skills {
   background-color: #eeeeee;
