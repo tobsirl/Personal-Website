@@ -68,9 +68,9 @@ body {
 .programming-languages {
   list-style: none; }
 
-.img-javascript {
+.javascript__icon {
   height: 100px;
-  width: 100px; }
+  background-image: url("../../img/icons8-javascript.svg"); }
 
 .img-java {
   height: 100px;
