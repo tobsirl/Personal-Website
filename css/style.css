@@ -52,6 +52,10 @@ body {
   background-color: #eeeeee;
   padding: 5rem 0;
   margin-top: 10vh; }
+  .section__education .container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    justify-items: left; }
 
 .module__list {
   list-style: none; }

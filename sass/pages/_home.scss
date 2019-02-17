@@ -4,7 +4,10 @@
   margin-top: 10vh;
 
   .container {
-    
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    justify-items: left;
+    //align-content: center;
   }
 }
 
