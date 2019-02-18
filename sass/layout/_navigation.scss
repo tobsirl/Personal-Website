@@ -5,7 +5,7 @@
   align-items: center;
 
   &__navigation {
-    // border-top: 2px solid #777;
+    // border-bottom: 2px solid #777;
     padding-top: 1rem;
   }
 
@@ -14,5 +14,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+
+  &__link {
+    content: '';
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: width 0.3s;
+
+    &:hover,
+    &:active {
+      border-bottom: 2px solid $color-body-text;
+    
+    }
   }
 }
