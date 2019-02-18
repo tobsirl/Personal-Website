@@ -67,7 +67,7 @@ body {
     display: grid;
     grid-template-columns: 200px 1fr; }
 
-.section__associated-skills {
+.section-skills {
   background-color: #eeeeee;
   padding: 5rem 0;
   margin-top: 10vh; }
