@@ -1,7 +1,7 @@
 .card {
   height: 50rem;
   position: relative;
-  width: 30rem;
+  width: 40rem;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
@@ -15,10 +15,16 @@
   &__picture {
     background-size: cover;
 
-    height: 23rem;
+    height: 35rem;
 
     &--1 {
       background-image: url('../../img/icons8-javascript.svg');
+    }
+    &--2 {
+      background-image: url('../../img/icons8-python.svg');
+    }
+    &--3 {
+      background-image: url('../../img/icons8-java.svg');
     }
   }
 
