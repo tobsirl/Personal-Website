@@ -95,10 +95,6 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 800px 1fr; }
 
-.dissertation {
-  background-image: url("../../img/diss.png");
-  background-size: 100%; }
-
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -211,4 +207,5 @@ body {
     text-transform: uppercase;
     transition: width 0.3s; }
     .header__link:hover, .header__link:active {
-      border-bottom: 2px solid #222; }
+      border-bottom: 2px solid #222;
+      padding-bottom: 1rem; }
