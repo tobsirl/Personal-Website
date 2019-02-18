@@ -154,6 +154,31 @@ body {
       transform: scale(1.1);
       text-shadow: 0 0 12px rgba(33, 33, 33, 0.6); }
 
+.card {
+  height: 50rem;
+  position: relative;
+  width: 30rem;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+  .card__picture {
+    background-size: cover;
+    height: 23rem; }
+    .card__picture--1 {
+      background-image: url("../../img/icons8-javascript.svg"); }
+  .card__details {
+    padding: 3rem; }
+    .card__details ul {
+      list-style: none;
+      width: 80%;
+      margin: 0 auto; }
+      .card__details ul li {
+        text-align: center;
+        font-size: 1.5rem;
+        padding: 1rem; }
+        .card__details ul li:not(:last-child) {
+          border-bottom: 1px solid black; }
+
 .header {
   height: 60vh;
   background-position: top;
