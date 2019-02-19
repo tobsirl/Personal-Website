@@ -1,8 +1,11 @@
-.header {
-  color: $basic-dark-color;
+.container-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+
+.header {
+  color: $basic-dark-color;
 
   &__navigation {
     // border-bottom: 2px solid #777;

@@ -154,7 +154,7 @@ body {
       transform: scale(1.1);
       text-shadow: 0 0 12px rgba(33, 33, 33, 0.6); }
 
-.container {
+.container-card {
   display: flex;
   justify-content: space-evenly; }
 
@@ -220,13 +220,16 @@ body {
     text-transform: uppercase;
     display: inline-block; }
   .footer__link:hover, .footer__link:active {
-    color: yellow; }
+    border-bottom: 2px solid #fff;
+    padding-bottom: 1rem; }
 
-.header {
-  color: #212121;
+.container-nav {
   display: flex;
   justify-content: flex-end;
   align-items: center; }
+
+.header {
+  color: #212121; }
   .header__navigation {
     padding-top: 1rem; }
   .header__list {

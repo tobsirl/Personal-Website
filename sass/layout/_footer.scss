@@ -32,8 +32,8 @@
 
     &:hover,
     &:active {
-      color: yellow;
-      // box-shadow: 0 1rem 2rem rgba($color-warmyellow, 0.4);
+      border-bottom: 2px solid $basic-light-color;
+      padding-bottom: 1rem;
     }
   }
 }
