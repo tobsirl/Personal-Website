@@ -1,7 +1,8 @@
 .section__education {
   background-color: rgb(238, 238, 238);
-  padding: 5rem 0;
+  padding: 5rem 40rem 5rem 40rem;
   margin-top: 10vh;
+  width: 100%;
 
   .container {
     display: grid;
@@ -22,7 +23,7 @@
 }
 
 .section__employment {
-  padding: 5rem 0;
+  padding: 5rem 40rem 5rem 40rem;
   margin-top: 10vh;
 
   .container {
@@ -33,7 +34,7 @@
 
 .section-skills {
   background-color: rgb(238, 238, 238);
-  padding: 5rem 0;
+  padding: 5rem 40rem 5rem 40rem;
   margin-top: 10vh;
 }
 
@@ -63,7 +64,7 @@
 }
 
 .section-dissertation {
-  padding: 15rem 0;
+  padding: 5rem 40rem 5rem 40rem;
 
   &__container {
     display: grid;

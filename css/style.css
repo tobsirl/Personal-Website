@@ -1,7 +1,7 @@
 *,
 *::after,
 *::before {
-  margin: 1rem;
+  margin: 0rem;
   padding: 0;
   box-sizing: inherit; }
 
@@ -50,8 +50,9 @@ body {
 
 .section__education {
   background-color: #eeeeee;
-  padding: 5rem 0;
-  margin-top: 10vh; }
+  padding: 5rem 40rem 5rem 40rem;
+  margin-top: 10vh;
+  width: 100%; }
   .section__education .container {
     display: grid;
     grid-template-columns: 200px 1fr;
@@ -61,7 +62,7 @@ body {
   list-style: none; }
 
 .section__employment {
-  padding: 5rem 0;
+  padding: 5rem 40rem 5rem 40rem;
   margin-top: 10vh; }
   .section__employment .container {
     display: grid;
@@ -69,7 +70,7 @@ body {
 
 .section-skills {
   background-color: #eeeeee;
-  padding: 5rem 0;
+  padding: 5rem 40rem 5rem 40rem;
   margin-top: 10vh; }
 
 .programming-languages {
@@ -89,7 +90,7 @@ body {
   width: 100px; }
 
 .section-dissertation {
-  padding: 15rem 0; }
+  padding: 5rem 40rem 5rem 40rem; }
   .section-dissertation__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -203,7 +204,8 @@ body {
 
 .footer {
   background-color: #212121;
-  color: #fff; }
+  color: #fff;
+  padding: 5rem 40rem 5rem 40rem; }
   .footer__navigation {
     border-top: 2px solid #777;
     padding-top: 2rem;
@@ -224,9 +226,7 @@ body {
     padding-bottom: 1rem; }
 
 .container-nav {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center; }
+  padding: 5px; }
 
 .header {
   color: #212121; }
@@ -236,12 +236,14 @@ body {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center; }
+    margin: 5px; }
   .header__link {
     content: '';
     text-decoration: none;
     text-transform: uppercase;
-    transition: width 0.3s; }
+    transition: width 0.3s;
+    padding: 5px;
+    margin: 5px; }
     .header__link:hover, .header__link:active {
       border-bottom: 2px solid #222;
       padding-bottom: 1rem; }
