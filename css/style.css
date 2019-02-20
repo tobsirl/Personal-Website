@@ -226,12 +226,10 @@ body {
     padding-bottom: 1rem; }
 
 .container-nav {
-  padding: 5px; }
+  padding: 6rem; }
 
 .header {
   color: #212121; }
-  .header__navigation {
-    padding-top: 1rem; }
   .header__list {
     list-style: none;
     display: flex;
