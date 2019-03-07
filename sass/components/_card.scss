@@ -11,6 +11,8 @@
   background-color: white;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
+  align-content: center;
+  align-items: stretch;
  
   // &__front {
   //   background-color: white;
@@ -20,8 +22,9 @@
 
   &__picture {
     background-size: cover;
+    
 
-    height: 14rem;
+    height: 15rem;
     width: 15rem;
 
     &--1 {
@@ -36,12 +39,12 @@
   }
 
   &__details {
-    padding: 3rem;
+    // padding: 3rem;
 
     ul {
       list-style: none;
-      width: 80%;
-      margin: 0 auto;
+      width: 100%;
+      margin: 0 0 0 0;
       li {
         text-align: center;
         font-size: 1.5rem;
