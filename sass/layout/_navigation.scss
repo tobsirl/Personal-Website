@@ -9,13 +9,15 @@
   color: $basic-dark-color;
 
   &__logo {
-
-
+    //text-align: center;
+    position: relative;
+    margin-right: auto;
   }
 
   &__navigation {
     //  border-bottom: 2px solid #777;
     // padding-top: 1rem;
+    position: fixe;
   }
 
   &__list {
@@ -34,6 +36,7 @@
     transition: width 0.3s;
     padding: 5px;
     margin: 5px;
+    
 
     &:hover,
     &:active {

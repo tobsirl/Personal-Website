@@ -264,6 +264,11 @@ body {
 
 .header {
   color: #212121; }
+  .header__logo {
+    position: relative;
+    margin-right: auto; }
+  .header__navigation {
+    position: fixe; }
   .header__list {
     list-style: none;
     display: flex;
